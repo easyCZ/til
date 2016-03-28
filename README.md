@@ -1,6 +1,9 @@
 Today I learned...
 ======
 
+## 2016-03-28
+How objects and inheratiance works in Go from [build-web-applications-with-golang](https://www.gitbook.com/book/astaxie/build-web-application-with-golang/details)
+
 ## 2016-03-26
 Memcached performance drastically increases with thread pinning and IRQ pinning.
 
