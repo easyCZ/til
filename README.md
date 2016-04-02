@@ -1,6 +1,9 @@
 Today I learned...
 ======
 
+## 2016-04-02
+How to use FP with lodash
+
 ## 2016-03-30
 Learned how exhausting finishing a dissertation is :)
 
