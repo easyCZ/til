@@ -1,5 +1,8 @@
 Today I learned...
 ======
+## 2016-04-09
+Loading the BIOS after the power button is pressed on a pc
+
 
 ## 2016-04-02
 How to use FP with lodash
