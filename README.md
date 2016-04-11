@@ -1,8 +1,10 @@
 Today I learned...
 ======
+## 2016-04-11
+How to use Firebase as a messagining queue with [firebase-queue](https://github.com/firebase/firebase-queue)
+
 ## 2016-04-09
 Loading the BIOS after the power button is pressed on a pc
-
 
 ## 2016-04-02
 How to use FP with lodash
