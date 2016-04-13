@@ -1,5 +1,11 @@
 Today I learned...
 ======
+## 2016-04-13
+Learned some vim commands through `vimtutor`
+
+## 2016-04-12
+Learned how to use iOS Facebook login with the Facebook SDK
+
 ## 2016-04-11
 How to use Firebase as a messagining queue with [firebase-queue](https://github.com/firebase/firebase-queue)
 
