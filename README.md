@@ -5,7 +5,7 @@ Today I learned...
 class SpinningSquare extends React.Component {
 
   state = {
-    rotation: new Animted.Value(0)
+    rotation: new Animated.Value(0)
   }
   
   /* Duration drives the speed of each rotation */
