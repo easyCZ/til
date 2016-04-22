@@ -23,7 +23,7 @@ class SpinningSquare extends React.Component {
   render() {
     const rotate = this.state.rotation.interpolate({ inputRange: [0, 1], outputRange: ['0deg', '360deg'] })
     return (
-      <View style={{
+      <Animated.View style={{
         width: 40,
         height: 40,
         backgroundColor: 'red',
