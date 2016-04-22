@@ -1,5 +1,40 @@
 Today I learned...
 ======
+## 2016-04-22 Make An Object Spin Infinitely in React Native
+```javascript
+class SpinningSquare extends React.Component {
+
+  state = {
+    rotation: new Animted.Value(0)
+  }
+  
+  /* Duration drives the speed of each rotation */
+  componentDidMount() {
+    const timingConfig = { toValue: 1, duration: 1000, easing: Easing.linear }
+    this.animation = Animated.timing(this.state.rotation, timingConfig)
+    this._animate()
+  }
+  
+  _animate = () => {
+    this.state.rotation.setValue(0);  // Needs to be reset after a full rotation
+    this.animation.start(this._animate);  // self as callback onFinished
+  }
+  
+  render() {
+    const rotate = { this.state.interpolate({ inputRange: [0, 1], outputRange: ['0deg', '360deg'] })
+    return (
+      <View style={{
+        width: 40,
+        height: 40,
+        backgroundColor: 'red',
+        transform: [{ rotate }]
+      }} />
+    )
+  }
+}
+```
+
+
 ## 2016-04-13
 Learned some vim commands through `vimtutor`
 
