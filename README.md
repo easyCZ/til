@@ -1,6 +1,6 @@
 Today I learned...
 ======
-## 2016-04-22 List Globally Installed NPM packages
+## 2016-04-23 List Globally Installed NPM packages
 ```bash
 npm list -g --depth=0
 ```
