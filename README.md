@@ -1,5 +1,10 @@
 Today I learned...
 ======
+## 2016-04-22 List Globally Installed NPM packages
+```bash
+npm list -g --depth=0
+```
+
 ## 2016-04-22 Spin Infinitely in React Native
 ```javascript
 class SpinningSquare extends React.Component {
