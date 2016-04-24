@@ -1,5 +1,9 @@
 Today I learned...
 ======
+## 2016-04-24 Select All Inside Current Scope in Sublime Text 
+```
+CTRL+SHIFT+M
+```
 ## 2016-04-23 List Globally Installed NPM packages
 ```bash
 npm list -g --depth=0
