@@ -1,5 +1,10 @@
 Today I learned...
 ======
+## 2016-04-25 Close the current HTML tag (including ReactJS)
+```
+CMD+ALT+.
+```
+
 ## 2016-04-24 Select All Inside Current Scope in Sublime Text 
 ```
 CTRL+SHIFT+M
