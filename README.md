@@ -1,6 +1,6 @@
 Today I learned...
 ======
-#### 2016-04-25 Close the current HTML tag (including ReactJS)
+#### 2016-04-25 Close the current HTML tag (including ReactJS) in Sublime Text
 ```
 CMD+ALT+.
 ```
