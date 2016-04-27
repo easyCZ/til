@@ -1,7 +1,7 @@
 Today I learned...
 ======
 #### 2016-04-26 Use async-await in React Native Redux Action Creators for more win
-```
+```javascript
 async function makeAction() : Promise<Object> {
   const data = await Async.get(...);
   return { type: 'ACTION_TYPE', data };
