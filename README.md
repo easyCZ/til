@@ -1,5 +1,13 @@
 Today I learned...
 ======
+#### 2016-04-26 Use async-await in React Native Redux Action Creators for more win
+```
+async function makeAction() : Promise<Object> {
+  const data = await Async.get(...);
+  return { type: 'ACTION_TYPE', data };
+}
+```
+
 #### 2016-04-25 Close the current HTML tag (including ReactJS) in Sublime Text
 ```
 CMD+ALT+.
