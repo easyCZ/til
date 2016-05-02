@@ -1,5 +1,8 @@
 Today I learned...
 ======
+#### 2016-05-02 Use git-flow
+[CheatSheet](https://gist.github.com/kristopherjohnson/8979538)
+
 #### 2016-04-26 Use async-await in React Native Redux Action Creators for more win
 ```javascript
 async function makeAction() : Promise<Object> {
