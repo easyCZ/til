@@ -1,5 +1,8 @@
 Today I learned...
 ======
+#### 2016-05-08 Linux insides
+[GitBook](https://www.gitbook.com/book/0xax/linux-insides/details)
+
 #### 2016-05-02 Use git-flow
 [CheatSheet](https://gist.github.com/kristopherjohnson/8979538)
 
