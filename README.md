@@ -1,5 +1,7 @@
 Today I learned...
 ======
+#### 2016-05-09 MPI, pthreads and Julia
+
 #### 2016-05-08 Linux insides
 [GitBook](https://www.gitbook.com/book/0xax/linux-insides/details)
 
