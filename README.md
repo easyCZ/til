@@ -1,5 +1,7 @@
 Today I learned...
 ======
+#### 2016-05-10 Discovered [Elm Lang](http://elm-lang.org/)
+
 #### 2016-05-09 MPI, pthreads and Julia
 
 #### 2016-05-08 Linux insides
