@@ -1,5 +1,7 @@
 Today I learned...
 ======
+#### 2016-05-12 Easy git directory publish with [git-directory-deploy](https://github.com/X1011/git-directory-deploy)
+
 #### 2016-05-10 Discovered [Elm Lang](http://elm-lang.org/)
 
 #### 2016-05-09 MPI, pthreads and Julia
