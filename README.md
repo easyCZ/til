@@ -1,6 +1,9 @@
 Today I learned...
 ======
-#### 2016-11-18 Pipe input into a `curl` command with `echo "payload" | curl -d @-`
+#### 2016-11-18 Pipe input into a `curl` command 
+```
+echo "payload" | curl -d @-
+```
 
 #### 2016-05-12 Easy git directory publish with [git-directory-deploy](https://github.com/X1011/git-directory-deploy)
 
