@@ -1,6 +1,14 @@
 Today I learned...
 ======
 
+#### 2016-11-23 Configure [httpie](https://httpie.org/) timeout with a default config
+```
+~/.httpie/config.json
+```
+```
+"default_options": ["--style=fruity", "--body"]
+```
+
 #### 2016-11-22 AWS Lambda Environment Variables
 It is now possible to specify environment variables in AWS Lambda
 
