@@ -5,7 +5,6 @@ Today I learned...
 ```
 @Captor
 private ArgumentCaptor<Pair<String, Account>> accountCaptor;
-...
 
 @Test
 public void argumentCaptor() {
