@@ -1,5 +1,20 @@
 Today I learned...
 ======
+
+#### 2016-11-19 Mockito Argument Captor with Generics
+```
+@Captor
+private ArgumentCaptor<Pair<String, Account>> accountCaptor;
+...
+
+@Test
+public void argumentCaptor() {
+  when(service.disableAccount(account.capture()).thenReturn(...);
+  Pair<String, Account> accountArgument = accountCaptor.get();
+  ...
+}
+```
+
 #### 2016-11-18 Pipe input into a `curl` command 
 ```
 echo "payload" | curl -d @-
