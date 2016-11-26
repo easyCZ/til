@@ -1,7 +1,10 @@
 Today I learned...
 ======
 
-#### 2016-11-19 Mockito Argument Captor with Generics
+#### 2016-11-22 AWS Lambda Environment Variables
+It is now possible to specify environment variables in AWS Lambda
+
+#### 2016-11-21 Mockito Argument Captor with Generics
 ```
 @Captor
 private ArgumentCaptor<Pair<String, Account>> accountCaptor;
