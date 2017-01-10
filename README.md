@@ -2,6 +2,10 @@ Today I learned...
 ======
 #### 2017-01-10 Add 2^5 (32) to any ASCII uppercase character to obtain the lowercase
 Similarly, substract 32 from any ASCII lowercase character to obtain the uppercase.
+```
+a = chr(ord('A') + 32)
+A = chr(ord('a') - 32)
+```
 
 #### 2016-11-23 Configure [httpie](https://httpie.org/) timeout with a default config
 ```
