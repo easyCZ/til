@@ -1,5 +1,7 @@
 Today I learned...
 ======
+#### 2017-01-10 Add 2^5 (32) to any ASCII uppercase character to obtain the lowercase
+Similarly, substract 32 from any ASCII lowercase character to obtain the uppercase.
 
 #### 2016-11-23 Configure [httpie](https://httpie.org/) timeout with a default config
 ```
