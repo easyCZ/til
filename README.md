@@ -1,5 +1,9 @@
 Today I learned...
 ======
+
+#### 2017-01-11 It is possible to pack arbitrary content into a PNG file
+It is then possible to pack HTML/CSS/JS into the content and serve it as ana image. [Arbitrary PNG content](https://news.ycombinator.com/item?id=9319526)
+
 #### 2017-01-10 Add 2^5 (32) to any ASCII uppercase character to obtain the lowercase
 Similarly, substract 32 from any ASCII lowercase character to obtain the uppercase.
 ```
