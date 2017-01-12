@@ -1,6 +1,17 @@
 Today I learned...
 ======
 
+#### 2017-01-12 The first byte of a PNG document is the signature
+The PNG singature is composed of the following ASCII values:
+* 137	A byte with its most significant bit set (8-bit character)
+* 80	P
+* 78	N
+* 71	G
+* 13	Carriage-return (CR) character, a.k.a. CTRL-M or ^M
+* 10	Line-feed (LF) character, a.k.a. CTRL-J or ^J
+* 26	CTRL-Z or ^Z
+* 10	Line-feed (LF) character, a.k.a. CTRL-J or ^J
+
 #### 2017-01-11 It is possible to pack arbitrary content into a PNG file
 It is then possible to pack HTML/CSS/JS into the content and serve it as ana image. [Arbitrary PNG content](https://news.ycombinator.com/item?id=9319526)
 
