@@ -1,6 +1,21 @@
 Today I learned...
 ======
 
+#### 2017-01-13 Define a Rust package with `mod`
+```
+[pub] mod my {
+    // Items in modules default to private visibility.
+    fn private_function() {
+        println!("called `my::private_function()`");
+    }
+
+    // Use the `pub` modifier to override default visibility.
+    pub fn function() {
+        println!("called `my::function()`");
+    }
+}
+```
+
 #### 2017-01-12 The first byte of a PNG document is the signature
 The PNG singature is composed of the following ASCII values:
 * 137	A byte with its most significant bit set (8-bit character)
