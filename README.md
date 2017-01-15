@@ -1,5 +1,9 @@
 Today I learned...
 ======
+#### 2017-01-15 Ownership in Rust through a intro_rust() tutorial
+[intro_rust()](http://intorust.com/)
+
+#### 2017-01-14 Learned about the Vinyl industry
 
 #### 2017-01-13 Define a Rust package with `mod`
 ```
