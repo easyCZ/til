@@ -1,5 +1,7 @@
 Today I learned...
 ======
+#### 2017-01-16 Use CMD-Shift-C to open Element selector in Chrome
+
 #### 2017-01-15 Ownership in Rust through a intro_rust() tutorial
 [intro_rust()](http://intorust.com/)
 
