@@ -1,5 +1,21 @@
 Today I learned...
 ======
+#### 2017-01-18 To run tests in Rust in `tests` directory which use `src` files, you need to reference the package name
+* `src/lib.rs`
+```
+pub fn hello() {
+    println!("Hello, world!");
+}
+```
+* `tests/my_test.rs`
+```
+extern crate hello_world;
+
+#[test]
+fn test_prints_hello() { assert_eq!("Hello, world!", hello_world::hello()); }
+```
+where `hello_world` is the project/package name
+
 #### 2017-01-16 Use CMD-Shift-C to open Element selector in Chrome
 
 #### 2017-01-15 Ownership in Rust through a intro_rust() tutorial
